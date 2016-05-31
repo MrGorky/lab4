@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include "func.h"
 
 int sum(int a, int b){
 	int rez;
