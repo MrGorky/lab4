@@ -2,18 +2,18 @@
 #include"func.h"
 
 int main() {
-	int arg1, arg2, rez;
+	int a, b, rez;
 	char f;
 	printf("Enter arg1, Enter arg2, Enter func:  ");
-	scanf("%d %d %c", &arg1, &arg2, &f);
+	scanf("%d %d %c", &a, &b, &f);
 	if (f == '+') 
-		rez = sum(arg1, arg2);
+		rez = sum(a, b);
 	if (f == '-')
-		rez = raz(arg1, arg2);
+		rez = raz(a, b);
 	if (f == '/')
-		rez = del(arg1, arg2);
+		rez = del(a, b);
 	if (f == '*')
-		rez = proz(arg1, arg2);
+		rez = proz(a, b);
 	printf("rez=%d", rez);
 	return 0;
 }
