@@ -21,6 +21,6 @@ int del(int a, int b){
 
 int proz(int a, int b){
 	int rez;
-	rez = arg1 * arg2;
+	rez = a * b;
 	return rez;
 }
